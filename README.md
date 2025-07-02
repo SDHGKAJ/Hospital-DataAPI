@@ -4,7 +4,7 @@ Prerequisite :
   CREATE TABLE hospital(
 			ID INT IDENTITY(1,1),
 			NAME VARCHAR(100),
-			Cause VARCHAR(1000));
+			Cause VARCHAR(2000));
 
 --CONFIG appsettings.json with 
 {
